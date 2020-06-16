@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter application.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="wsb">
+  <meta name="google-signin-client_id" content="893202601623-9vp1p60dq4slg6vq1ul6sc30f62pdr88.apps.googleusercontent.com" />
+
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+  <title>wsbmobileapp</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+<!--  <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>-->
+  <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-firestore.js"></script>
+  <script src="./init-firebase.js"></script>
+  <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyATWln2mSgFwSSobSVniSKZqGefeTfApAM",
+    authDomain: "wsbmobileapp-7442f.firebaseapp.com",
+    databaseURL: "https://wsbmobileapp-7442f.firebaseio.com",
+    projectId: "wsbmobileapp-7442f",
+    storageBucket: "wsbmobileapp-7442f.appspot.com",
+    messagingSenderId: "893202601623",
+    appId: "1:893202601623:web:f7a2a53b459daf29483bd2",
+    measurementId: "G-S4NH7QLGF9"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+<!--  firebase.analytics();-->
+</script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

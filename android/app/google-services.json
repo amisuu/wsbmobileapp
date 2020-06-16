@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "893202601623",
+    "firebase_url": "https://wsbmobileapp-7442f.firebaseio.com",
+    "project_id": "wsbmobileapp-7442f",
+    "storage_bucket": "wsbmobileapp-7442f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893202601623:android:f17c825decfedaed483bd2",
+        "android_client_info": {
+          "package_name": "com.example.wsbmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893202601623-ka03pg0l7a3dvuu4rk82dd85mtp30e8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wsbmobileapp",
+            "certificate_hash": "c2e976fcdf3b0cb2a7c33095d344f93439beaadf"
+          }
+        },
+        {
+          "client_id": "893202601623-9vp1p60dq4slg6vq1ul6sc30f62pdr88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZfsE3Rx9cO4KStqokC07TgxSZdoeZOPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893202601623-9vp1p60dq4slg6vq1ul6sc30f62pdr88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
